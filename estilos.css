@@ -6,3 +6,14 @@ body{
     font-family: "Butterfly Kids", cursive;
     font-size: 35px;
 }
+
+img{
+    opacity: 0.5;
+    width: 100px;
+    height: 200px;
+    transition: width 2s, opacity 2s;
+}
+img:hover{
+    opacity: 1;
+    width: 400px;
+}
